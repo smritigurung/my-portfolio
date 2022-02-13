@@ -18,7 +18,7 @@
 .projects-info {
   position: absolute;
   background-color: white;
-  top: 7%;
+  top: 3%;
   right: 3%;
   display: flex;
   flex-direction: column;
@@ -34,6 +34,7 @@
 
 .heading {
   font-size: 30px;
+  text-decoration: underline;
 }
 
 .proj-title {
@@ -52,5 +53,8 @@
 
 .github-link {
   color: green;
+  text-decoration: none;
+}
+.resume-link {
   text-decoration: none;
 }

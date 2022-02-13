@@ -116,6 +116,18 @@ function Project() {
           </a>{" "}
           page.
         </p>
+        <p classname="resume-info">
+          If you also like to view my résumé, please click{" "}
+          <a
+            className="resume-link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://docs.google.com/document/d/1c0d1OYWdtmN-g7yWd981Xe_zhwriMJsXYUgx-X5e6H0/edit?usp=sharing"
+          >
+            here
+          </a>
+          .
+        </p>
       </div>
     </div>
   );

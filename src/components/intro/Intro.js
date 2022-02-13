@@ -7,7 +7,8 @@ function Intro() {
     <div className="intro">
       <div className="intro-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, my name is</h2>
+          <h2 className="i-intro">Hello, welcome to my portfolio!</h2>
+          <h2 className="i-intro">My name is</h2>
           <h1 className="i-name">Smriti Gurung</h1>
           <h3 className="intro-title">
             Aspiring Software Engineer in the Bay Area
@@ -15,8 +16,11 @@ function Intro() {
           <p className="i-desc">
             When I started learning a programming language for the first time,
             it felt like magic. I was very fascinated to see how we can make a
-            difference in the world with only a minimum amount of coding. Back
-            in my home country Nepal, I had minimal access to such great
+            difference in the world with our coding skills and I think that's
+            the beauty of it.
+          </p>
+          <p className="i-desc">
+            Back in my home country Nepal, I had minimal access to such great
             technological resources. So, I was eager to learn more and hone my
             programming skills. Therefore, I enrolled in college in California
             and started pursuing my dream of becoming a great Software Engineer.
