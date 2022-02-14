@@ -1,12 +1,15 @@
 import "./Contact.css";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { FaGithub } from "react-icons/fa";
-import { useRef, useState } from "react";
+import { useRef, useState, useContext } from "react";
 import emailjs from "@emailjs/browser";
+import { ThemeContext } from "../../Context";
 
 function Contact() {
   const formRef = useRef();
   const [done, setDone] = useState(false);
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     // it will prevent us from refreshing the page
@@ -32,8 +35,6 @@ function Contact() {
 
   return (
     <div className="contact">
-      <div className="contact-bg"></div>
-
       <div className="contact-wrapper">
         <div className="c-left">
           <h1 className="c-title">Contact me</h1>
@@ -52,7 +53,10 @@ function Contact() {
                     href="https://www.linkedin.com/in/smriti-gurung/"
                   >
                     <TiSocialLinkedinCircular
-                      style={{ color: "#0a66c2", fontSize: "3.5rem" }}
+                      style={{
+                        color: "#0a66c2",
+                        fontSize: "3.5rem",
+                      }}
                     />{" "}
                   </a>
                 </li>
@@ -71,10 +75,30 @@ function Contact() {
         </div>
         <div className="c-right">
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea name="message" rows="10" placeholder="Message"></textarea>
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Name"
+              name="user_name"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Subject"
+              name="user_subject"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Email"
+              name="user_email"
+            />
+            <textarea
+              style={{ backgroundColor: darkMode && "#333" }}
+              name="message"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
             <button>Submit</button>
             <p style={{ marginTop: "2rem" }}>
               {done && "Thank you for your message."}

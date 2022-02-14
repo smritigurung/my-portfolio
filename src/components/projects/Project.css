@@ -35,6 +35,7 @@
 .heading {
   font-size: 30px;
   text-decoration: underline;
+  color: black;
 }
 
 .proj-title {
@@ -42,13 +43,22 @@
   font-weight: 600;
 }
 
+.link {
+  color: black;
+}
+
 .proj-desc {
   font-size: 13px;
   letter-spacing: 1.1px;
+  color: black;
 }
 
 .link {
   text-decoration: none;
+}
+
+.link:hover {
+  color: #969edd;
 }
 
 .github-link {
@@ -57,4 +67,128 @@
 }
 .resume-link {
   text-decoration: none;
+  color: #969edd;
+}
+
+@media screen and (min-width: 250px) and (max-width: 319px) {
+  .background {
+    display: none;
+  }
+  .projects-info {
+    width: 80vw;
+    right: 0;
+    background-color: rgba(250, 245, 245, 0.781);
+  }
+  .heading {
+    font-size: 22px;
+  }
+
+  .proj-title {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .proj-desc {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .background {
+    display: none;
+  }
+  .projects-info {
+    width: 84vw;
+    background-color: rgba(250, 245, 245, 0.781);
+  }
+  .heading {
+    font-size: 24px;
+  }
+
+  .proj-title {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .proj-desc {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 690px) and (max-width: 768px) {
+  .projects {
+    height: 75vh;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .background {
+    display: none;
+  }
+  .projects-info {
+    width: 87vw;
+    background-color: rgba(250, 245, 245, 0.781);
+  }
+  .heading {
+    font-size: 22px;
+  }
+
+  .proj-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .proj-desc {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-width: 912px) {
+  .projects {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .background {
+    display: none;
+  }
+  .projects-info {
+    width: 87vw;
+    background-color: rgba(250, 245, 245, 0.781);
+  }
+  .heading {
+    font-size: 22px;
+  }
+
+  .proj-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .proj-desc {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .projects-info {
+    width: 50vw;
+    background-color: rgba(250, 245, 245, 0.781);
+    right: 1.2%;
+  }
+  .heading {
+    font-size: 20px;
+  }
+
+  .proj-title {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .proj-desc {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1399px) {
+  .projects-info {
+    width: 50vw;
+    top: 2%;
+  }
 }

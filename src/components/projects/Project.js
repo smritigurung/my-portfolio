@@ -59,11 +59,10 @@ function Project() {
             </a>
           </h3>
           <p className="proj-desc">
-            Created Snapchat clone with camera feature by installing
-            react-webcam dependencies; used Redux and implemented reducers to
-            generate associated actions in React and also utilized Firebase
-            tools to invoke Google authentication as provider inside this
-            application
+            Created Snapchat clone with React Webcam feature; used Redux and
+            implemented reducers to generate associated actions in React and
+            also utilized Firebase tools to invoke Google authentication as
+            provider inside this application
           </p>
         </div>
 
@@ -104,7 +103,15 @@ function Project() {
           </p>
         </div>
 
-        <p className="github-info">
+        <p
+          className="link-info"
+          style={{
+            color: "black",
+            letterSpacing: "1px",
+            fontSize: "13px",
+            lineHeight: "1.5rem",
+          }}
+        >
           For more projects, please visit my{" "}
           <a
             className="github-link"
@@ -115,8 +122,7 @@ function Project() {
             Github
           </a>{" "}
           page.
-        </p>
-        <p classname="resume-info">
+          <br />
           If you also like to view my résumé, please click{" "}
           <a
             className="resume-link"
