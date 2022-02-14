@@ -5,11 +5,6 @@
 /.pnp
 .pnp.js
 
-# Image files
-*.jpeg
-*.JPG
-*.jpg
-*.png
 
 # testing
 /coverage
