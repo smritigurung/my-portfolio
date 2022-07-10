@@ -22,9 +22,9 @@ function Project() {
             </a>
           </h3>
           <p className="proj-desc">
-            Currently building e-commerce responsive web application capable of
-            successfully navigating through different routes to browse and buy
-            skincare products using React and styled-components
+            Designed and built e-commerce responsive web application capable of
+            successfully navigating through different routes to browse, add to
+            cart and buy skincare products using React and styled-components
           </p>
         </div>
 
@@ -40,10 +40,11 @@ function Project() {
             </a>
           </h3>
           <p className="proj-desc">
-            Created web-based application with 5-team members providing easier
-            ways for job seekers to apply for multiple jobs and also giving
-            recruiters to post jobs and recruit new hires utilizing MERN stack,
-            Agile approach, Selenium and Postman for testing
+            Collaborated with 5-team members to create web-based application
+            which provides easier ways for job seekers to apply for multiple
+            jobs and also giving recruiters to post jobs and recruit new hires
+            utilizing MERN stack, Agile approach, Selenium and Postman for
+            testing
           </p>
         </div>
 
@@ -91,15 +92,16 @@ function Project() {
               className="link"
               target="_blank"
               rel="noreferrer"
-              href="https://smritigurung.github.io/contactmanager/"
+              href="https://github.com/smritigurung/tic-tac-toe-game"
             >
-              Contact Manager
+              Tic Tac Toe Game
             </a>
           </h3>
           <p className="proj-desc">
-            Created web application to manage contacts by adding, updating, and
-            deleting contact details using React components; also used REST API
-            from JSONPlaceholder to fetch, update and delete users data
+            Designed and built 3 x 3 grid Tic Tac Toe game with 3-team members
+            where two players can play together utilizing Java, GUI and applying
+            concepts of Object-oriented Programming such as Observer (MVC) and
+            Strategy design patterns
           </p>
         </div>
 
