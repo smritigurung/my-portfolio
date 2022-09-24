@@ -169,7 +169,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .projects-info {
-    width: 50vw;
+    width: 52vw;
     background-color: rgba(250, 245, 245, 0.781);
     right: 1.2%;
   }

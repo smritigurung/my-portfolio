@@ -22,9 +22,10 @@ function Project() {
             </a>
           </h3>
           <p className="proj-desc">
-            Designed and built e-commerce responsive web application capable of
-            successfully navigating through different routes to browse, add to
-            cart and buy skincare products using React and styled-components
+            Designed and built an e-commerce responsive web application capable
+            of successfully navigating through different routes to browse and
+            buy skin care products using React, React-Router, Hooks, React
+            Testing Library and styled-components
           </p>
         </div>
 
@@ -40,11 +41,10 @@ function Project() {
             </a>
           </h3>
           <p className="proj-desc">
-            Collaborated with 5-team members to create web-based application
-            which provides easier ways for job seekers to apply for multiple
-            jobs and also giving recruiters to post jobs and recruit new hires
-            utilizing MERN stack, Agile approach, Selenium and Postman for
-            testing
+            Collaborated with four team members to create a web application that
+            provides an easier way for job seekers to apply for multiple jobs
+            and for recruiters to recruit for new openings utilizing MERN stack,
+            Agile approach, Selenium, and Postman for testing
           </p>
         </div>
 
@@ -60,7 +60,7 @@ function Project() {
             </a>
           </h3>
           <p className="proj-desc">
-            Created Snapchat clone with React Webcam feature; used Redux and
+            Created Snapchat clone with React Webcam feature, used Redux and
             implemented reducers to generate associated actions in React and
             also utilized Firebase tools to invoke Google authentication as
             provider inside this application
@@ -98,10 +98,10 @@ function Project() {
             </a>
           </h3>
           <p className="proj-desc">
-            Designed and built 3 x 3 grid Tic Tac Toe game with 3-team members
+            Designed and built a 3 x 3 Tic Tac Toe board game as a team project
             where two players can play together utilizing Java, GUI and applying
-            concepts of Object-oriented Programming such as Observer (MVC) and
-            Strategy design patterns
+            principles of Object-oriented Programming by using classes and
+            design patterns such as Observer (MVC) and Strategy design patterns
           </p>
         </div>
 

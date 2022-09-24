@@ -11,7 +11,7 @@ function Intro() {
           <h2 className="i-intro">My name is</h2>
           <h1 className="i-name">Smriti Gurung</h1>
           <h3 className="intro-title">
-            Aspiring Software Engineer in the Bay Area
+            Software Engineer in the San Francisco Bay Area
           </h3>
           <p className="i-desc">
             When I started learning a programming language for the first time,
