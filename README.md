@@ -1,6 +1,11 @@
-<img width="1440" alt="1" src="https://user-images.githubusercontent.com/43121658/172316743-9ea839f9-e50f-441e-8324-8194e6e134e1.png">
-<img width="1440" alt="2" src="https://user-images.githubusercontent.com/43121658/172316827-7683857c-3003-4eb7-a50c-dbe089eb1e8f.png">
+# Preview of my Portfolio Website:
+
+## When the Light-mode theme is on
+<img width="1440" alt="Screen Shot 2022-09-23 at 6 02 35 PM" src="https://user-images.githubusercontent.com/43121658/192073645-0927d4e0-04cf-4462-9176-babf6627d367.png">
+<img width="1440" alt="Screen Shot 2022-09-23 at 6 02 50 PM" src="https://user-images.githubusercontent.com/43121658/192073659-0571b4dd-b9c1-492a-b2de-e7a7f7f2c7ea.png">
 <img width="1440" alt="3" src="https://user-images.githubusercontent.com/43121658/172316902-0029173b-e220-4ef7-91f0-be97977853d7.png">
+
+## When the Dark-mode theme is on
 <img width="1440" alt="4" src="https://user-images.githubusercontent.com/43121658/172316935-7995b0b0-b38c-40aa-9d1d-7559605d52ef.png">
 
 
