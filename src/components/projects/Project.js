@@ -130,7 +130,7 @@ function Project() {
             className="resume-link"
             target="_blank"
             rel="noreferrer"
-            href="https://docs.google.com/document/d/1c0d1OYWdtmN-g7yWd981Xe_zhwriMJsXYUgx-X5e6H0/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1Dux1-1N6j5J_EWkDDbECVgnZF9AFlb8e9jkpScaIlMA/edit?usp=sharing"
           >
             here
           </a>
